@@ -29,7 +29,7 @@ p {
 
 /* this section of css is for the sections  */
 
-.introduction {
+.introduction, .discography {
     background-color: #050404;
     width: 40%;
     display: flex;
