@@ -9,6 +9,23 @@ body {
     padding: 0;
   }
 
+ul{
+    list-style: none;
+}
+
+
+li a {
+    list-style-position: inside;
+    align-items: row;
+    padding: 5%;
+    display: block;
+    color: #9d6b67;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 
 /* this section of css is for text  */
 
@@ -23,6 +40,7 @@ p {
     color: #9d6b67;
     padding: 5%;
     font-family: 'Anton', sans-serif;
+    text-align: center;
 }
 
 /* this section of css is for the divs */
@@ -37,8 +55,8 @@ p {
 
 /* this section of css is for the sections  */
 
-.introduction, .discography {
-    background-color: #050404;
+.introduction, .discography, .personal-fav, .links {
+    background-color: black;
     width: 40%;
     display: flex;
     justify-items: center;
