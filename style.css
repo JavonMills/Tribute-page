@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 body {
     background-color: #5e5a5a;
 }
@@ -6,15 +8,21 @@ body {
     margin: 0;
     padding: 0;
   }
+
+
 /* this section of css is for text  */
 
 h1 {
     color: #9d6b67;
+    padding: 5%;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
 }
 
 p {
     color: #9d6b67;
     padding: 5%;
+    font-family: 'Anton', sans-serif;
 }
 
 /* this section of css is for the divs */
