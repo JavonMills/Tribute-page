@@ -1,0 +1,39 @@
+body {
+    background-color: #5e5a5a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+/* this section of css is for text  */
+
+h1 {
+    color: #9d6b67;
+}
+
+p {
+    color: #9d6b67;
+    padding: 5%;
+}
+
+/* this section of css is for the divs */
+
+.main-body {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* this section of css is for the sections  */
+
+.introduction {
+    background-color: #050404;
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
