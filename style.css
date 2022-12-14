@@ -58,7 +58,7 @@ p {
 
 .introduction, .discography, .personal-fav, .links {
     background-color: black;
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -70,7 +70,7 @@ p {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 50%;
+  max-width: 60%;
   position: relative;
   margin: auto;
 }
@@ -154,4 +154,19 @@ p {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+
+  /*this section is to implement a page format for a smaller device like a phone */
+  @media only screen and (max-width: 600px) {
+
+    .introduction, .discography, .personal-fav, .links {
+        background-color: black;
+        width: 70%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+
   }
