@@ -1,1 +1,1 @@
-# This is a tribute page that i made for a music artist that i am a afn of, where i designed and choose colours related to the artist latest album and display facts about them, this displays my web designing skills and html, css and js skills.
+# This is a tribute page that i made for a music artist that i am a fan of, where i designed and choose colours related to the artist latest album and display facts about them, this displays my web designing skills and html, css and js skills.
